@@ -1,0 +1,146 @@
+
+/*var css*/
+body {
+	margin: 0px;
+	color: #000000;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: lighter;
+}
+
+a:link, a:visited, a:hover, a:active{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Assistant', sans-serif;
+	font-size: 100pt;
+	margin: 0px auto;
+
+}
+
+
+h3{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+}
+
+/*h3 centrerad*/
+.ch3{
+	margin: 0 auto;
+	text-align: center;
+}
+
+p {
+	font-size: 22px;
+}
+
+.pcenter {
+	text-align: center;
+}
+
+ul{font-family: 'Josefin Sans', sans-serif;
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+li{
+	margin: 25px;
+}
+/*frame2*/
+
+.section{
+	width: 100%;
+	height: 100%
+}
+
+/*frame3*/
+.contentframe {
+	margin: 20px auto;
+	width: 80%;
+}
+
+
+/*underrubrik*/
+#look{
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-size: 30pt;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 20px;
+	animation: klick 5s;
+	transition-timing-function: ease-in;
+	transition: 0.2s;
+}
+
+/*animation*/
+@keyframes klick {
+	0%  {opacity: 0;}
+	10%  {opacity: 0;}
+	15% {opacity: 1;}
+    100% {opacity: 1;}   
+}
+
+/*slide 2 PRESENTATION OM THAO*/
+
+
+ #presentationpic{
+ 	margin-bottom: 15px;
+ }
+
+#presentationtext{
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 950px;
+	text-align: left;
+}
+
+
+/*Slide 3 Projektledare argument*/
+
+
+/*paragrafram
+#walk {
+	margin: 0 auto;
+	width: 616px;
+	text-align: center;
+}/
+
+/*punktlista*/
+.snabbfakta{
+	margin: 0 auto;
+	max-width: 680px;
+	min-width: 100px;
+	font-size: 22px;
+}
+
+/*SLIDE portfolio*/
+.section .fp-controlArrow{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.portpic {
+	margin: 0 auto;
+	width: 700px;
+	text-align: center;
+}
+
+#profile {
+	margin: 0 auto;
+	width: 250px;
+	text-align: center;
+}
+
+.port {
+	margin: 0 auto;
+	padding-right: 10px;
+	padding-left: 15px;
+	max-width: 600px;
+	min-width: 100px;
+	text-align: left;
+}
+
+
